@@ -1,0 +1,8 @@
+:root { --fg:#0f172a; --bg:#ffffff; --muted:#475569; --card:#f8fafc; --border:#e2e8f0; }
+*{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Arial; color:var(--fg); background:var(--bg)}
+.wrap{max-width:960px;margin:0 auto;padding:24px}
+header h1{margin:16px 0 0;font-size:32px}
+.tag{color:var(--muted);margin:4px 0 16px}
+.card{background:var(--card);border:1px solid var(--border);padding:16px;border-radius:14px;margin:16px 0}
+.foot{color:var(--muted);font-size:14px}
+a{color:#0ea5e9;text-decoration:none} a:hover{text-decoration:underline}
